@@ -1,0 +1,15 @@
+
+NET "clkg"  LOC = "E5" | IOSTANDARD = "LVCMOS33";
+#NET "clkg"  LOC = "M21";
+NET "clkg" TNM_NET = "clk";
+#NET "clkg" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "rst"  LOC = "H7"  | IOSTANDARD = "LVCMOS33"; # SW2 Wukong v01 and v02
+
+NET "LEDS[0]"  LOC = "H6"  | IOSTANDARD = "LVCMOS33";
+NET "LEDS[1]"  LOC = "J6"  | IOSTANDARD = "LVCMOS33";
+
+NET "KEY"  LOC = "J8"  | IOSTANDARD = "LVCMOS33"; # SW3 Wukong v01 only
+
+
+
+
